@@ -1,0 +1,51 @@
+/* Global styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+/* Headings */
+h1, h2 {
+  font-weight: 600;
+}
+
+/* Search form on index.html */
+form#searchForm {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Event cards */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Buttons */
+.btn-primary,
+.btn-outline-primary {
+  border-radius: 30px;
+}
+
+.btn-primary:hover,
+.btn-outline-primary:hover {
+  opacity: 0.9;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  form#searchForm {
+    padding: 15px;
+  }
+}
